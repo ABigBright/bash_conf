@@ -115,6 +115,7 @@ man() {
   man "$@"
 }
 
+alias cman='man -M /usr/share/man/zh_CN/'
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
